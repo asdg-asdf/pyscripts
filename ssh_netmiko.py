@@ -55,7 +55,7 @@ def ssh_connect(host_ip, host_port, host_username, host_passwd , device_type , u
 def run_command_return_result(parameter_file_content_line):
     ##IP::PORT::username::password::device_type::uuid11##command11::uuid22##command22::uuid33##command33
     # 10.0.224.31::22::root::123456::d41d8cd98f00b204e9800998ecf8427e##ifconfig -a::u41d8cd98f00b206e9800998ecf8427F##hostname
-    #('d41d8cd98f00b204e9800998ecf8427e1\n',{'username': 'root', 'ip': '192.168.2.1', 'password': '1q2w3e4r', 'command': 'ifconfig -a', 'port': '22'})
+    #('d41d8cd98f00b204e9800998ecf8427e1\n',{'username': 'root', 'ip': '192.168.2.1', 'password': '123456', 'command': 'ifconfig -a', 'port': '22'})
     command_result_list = []
     command_result = {}
     file_line=parameter_file_content_line.split('::')
