@@ -1,8 +1,8 @@
 #!/usr/weblogic/bea/oracle/wlserver/common/bin/wlst.sh
 import sys
-print "start  updateDeploy perbank....."
+print "start  updateDeploy testwar....."
 connect('weblogic','weblogic','t3://localhost:7001')
-stopApplication("perbank")
-redeploy("perbank")
-startApplication("perbank")
+stopApplication("testwar")
+redeploy("testwar")
+startApplication("testwar")
 print "updateDeploy  Success........................"
